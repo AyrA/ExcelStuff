@@ -76,3 +76,25 @@ The reset button should however allow you to solve the already present maze agai
 Version
 -------
 The File has been tested under Windows 7 (64 bit) using Office 2010 (32 bit).
+
+ExcelDecrypt
+============
+Not an excel file.
+This file decrypts an office 2003 file.
+You can use it for word and powerpoint documents as well.
+Source file and a precompiled and signed exe file are present in the repository.
+
+You can also use [My online service](http://home.ayra.ch/unlock/).
+The online service also supports Office 2010 documents
+
+How To
+------
+
+This is a command line tool:
+
+    excelDecrypt.exe <infile> <outfile>
+
+Version
+-------
+The File has been tested under Windows 7 (64 bit)
+Since it is a basic c source code file, without any windows specific code, it will also run under DOS or linux if compiled.
