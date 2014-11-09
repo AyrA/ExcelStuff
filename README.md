@@ -3,7 +3,9 @@ General
 
 Protection
 ----------
-All files are protected. Not because I do want to hide my stuff, but to prevent accidental edits, as it voids the digital signature. If you want to have a look at the code or change the sheets, use **1234** as password for unlocking
+Most files are protected. Not because I do want to hide my stuff, but to prevent accidental edits, as it voids the digital signature. If you want to have a look at the code or change the sheets, use **1234** as password for unlocking
+
+Also when downloading these excel files you might need to right click it first, select "properties" and the on the lower right, click on "allow" if it is present
 
 ExcelPlayer
 ===========
@@ -33,6 +35,43 @@ How To
 ------
 
 Go to sheet 3 and click on the Start button. You can only have one window open at a time, but when closing it you can click this button again.
+
+Version
+-------
+The File has been tested under Windows 7 (64 bit) using Office 2010 (32 bit).
+
+MazeGen
+=======
+A Maze generator and solving assistant
+
+Allows you to generate and solve mazes
+
+Utilizes macros.
+
+How To
+------
+
+Allow Macros, then you should see a Tab "Add-Ins" in the ribbon with 3 new buttons.
+Those are in the order from left to right:
+
+- Generate new maze
+- Reset solving progress
+- Clear document
+
+Click on Clear document, then on "Generate maze".
+Enter width and height of the maze.
+The maze generates now. If you enter big values (>150),
+excel may freeze up. Just wait for it to finish to become responsive again.
+
+After the maze is generated, use the arrow keys to navigate through the maze.
+The computer will autmatically move as far until another decision is needed
+(crossing, corner or dead end)
+
+You can reset the progress at anytime with the reset button.
+
+You cannot save the maze at the moment.
+You can save the document, but you cannot continue to solve the maze.
+The reset button should however allow you to solve the already present maze again.
 
 Version
 -------
