@@ -3,6 +3,7 @@ General
 
 Protection
 ----------
+
 Most files are protected. Not because I do want to hide my stuff, but to prevent accidental edits, as it voids the digital signature. If you want to have a look at the code or change the sheets, use **1234** as password for unlocking
 
 Also when downloading these excel files you might need to right click it first, select "properties" and the on the lower right, click on "allow" if it is present
@@ -16,15 +17,18 @@ Utilizes macros.
 
 How To
 ------
+
 Open the File and confirm the security bar on top.
 Go into the playlist sheet and add files. The easiest way to accomplish this, is to right click on a media file on your computer while holding shift. Select "copy as path" from the menu, than paste the path into excel. **For now, remove the quotes** of the file.
 
 Version
 -------
+
 The File has been tested under Windows 7 (64 bit) using Office 2010 (32 bit).
 
 Excplorer
 =========
+
 A mixture between Excel and Explorer
 
 A simple Internet Explorer rendering in Excel to browse the web while it is still counted towards activities in Excel.
@@ -38,10 +42,31 @@ Go to sheet 3 and click on the Start button. You can only have one window open a
 
 Version
 -------
+
+The File has been tested under Windows 7 (64 bit) using Office 2010 (32 bit).
+
+CMD
+===
+
+This file copies the CMD from the windows\system32 directory onto your desktop and overwrites the portion that admins use to prevent people from running it.
+This allows you to run cmd.exe on restricted systems.
+It also has a function for patching regedit.exe in it, but for some reason it doesn't works.
+
+Utilizes Macros
+
+How To
+------
+
+Open Workbook, Push the appropriate button
+
+Version
+-------
+
 The File has been tested under Windows 7 (64 bit) using Office 2010 (32 bit).
 
 MazeGen
 =======
+
 A Maze generator and solving assistant
 
 Allows you to generate and solve mazes
@@ -79,6 +104,7 @@ The File has been tested under Windows 7 (64 bit) using Office 2010 (32 bit).
 
 ExcelDecrypt
 ============
+
 Not an excel file.
 This file decrypts an office 2003 file.
 You can use it for word and powerpoint documents as well.
@@ -96,5 +122,6 @@ This is a command line tool:
 
 Version
 -------
+
 The File has been tested under Windows 7 (64 bit)
-Since it is a basic c source code file, without any windows specific code, it will also run under DOS or linux if compiled.
+Since it is a basic C source code file, without any windows specific code, it will also run under DOS or linux if compiled.
